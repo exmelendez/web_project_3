@@ -1,7 +1,9 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
+@import url(../vendor/fonts/fonts.css);
 /* TODO insert imports here */
 
 .page {
   background: #2A2C2F;
+  font-family: 'Inter', Arial, sans-serif;
 }
