@@ -1,2 +1,7 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
 /* TODO insert imports here */
+
+.page {
+  font-family: 'Inter', Arial, sans-serif;
+}
