@@ -1,2 +1,6 @@
 @import url(../vendor/normalize.css);
 /* TODO insert imports here */
+
+body {
+  background: #2A2C2F;
+}
