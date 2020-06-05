@@ -1,0 +1,16 @@
+@import url(./__logo/header__logo.css);
+@import url(./__navLinks/header__navLinks.css);
+@import url(./__navLink/header__navLink.css);
+@import url(./__navLink/_active/header__navLink_active.css);
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 34px;
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    padding-top: 20px;
+  }
+}
