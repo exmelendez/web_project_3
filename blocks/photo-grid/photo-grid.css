@@ -1,7 +1,7 @@
 @import url(./__image/trip-gallery__image.css);
 @import url(./__item/trip-gallery__item.css);
 
-.trip-gallery {
+.photo-grid {
   width: 100%;
   height: 671px;
   -webkit-box-sizing: border-box;
@@ -15,7 +15,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .trip-gallery {
+  .photo-grid {
     height: 942px;
     grid-template-columns: repeat(3, 300px);
     grid-template-rows: repeat(4, 225px);
@@ -24,7 +24,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .trip-gallery {
+  .photo-grid {
     height: 720px;
     grid-template-columns: repeat(2, 352px);
     grid-template-rows: repeat(6, 264px);
@@ -33,7 +33,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .trip-gallery {
+  .photo-grid {
     height: 2724px;
     grid-template-columns: 288px;
     grid-template-rows: repeat(12, 216px);

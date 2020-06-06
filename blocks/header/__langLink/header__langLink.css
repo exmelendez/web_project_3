@@ -1,4 +1,4 @@
-.header__navLink {
+.header__langLink {
   text-decoration: none;
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
@@ -11,7 +11,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .header__navLink {
+  .header__langLink {
     font-size: 18px;
     line-height: 24px;
   }
