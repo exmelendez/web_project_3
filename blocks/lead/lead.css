@@ -5,15 +5,12 @@
 
 .lead {
   max-width: 984px;
-  /* height: 1005px; */
-
   padding-top: 58px;
 }
 
 @media screen and (max-width: 1024px) {
   .lead {
     max-width: 928px;
-    /* height: 962px; */
     padding-top: 50px;
   }
 }
@@ -21,15 +18,11 @@
 @media screen and (max-width: 768px) {
   .lead {
     max-width: 768px;
-    /* height: 862px; */
-    /* TODO same padding-top as previous media query. Determine if explicitely needed. */
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead {
     max-width: 320px;
-    /* height: 406px; */
-    /* TODO same padding-top as previous media query. Determine if explicitely needed. */
   }
 }

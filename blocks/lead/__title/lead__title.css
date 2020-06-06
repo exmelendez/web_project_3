@@ -1,5 +1,6 @@
 .lead__title {
-  width: 720px;
+  /* TODO confirm that max width is what should be used for text */
+  max-width: 720px;
 
   font-style: normal;
   font-weight: 900;
@@ -12,7 +13,7 @@
 
 @media screen and (max-width: 320px) {
   .lead__title {
-    width: 288px;
+    max-width: 288px;
     font-size: 40px;
     line-height: 44px;
     margin-bottom: 16px;

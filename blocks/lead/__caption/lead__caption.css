@@ -1,4 +1,5 @@
 .lead__caption {
+  /* TODO determine if this needs to be max-width */
   width: 183px;
   font-style: normal;
   font-weight: normal;

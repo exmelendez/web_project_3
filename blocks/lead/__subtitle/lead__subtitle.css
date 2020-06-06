@@ -1,5 +1,6 @@
 .lead__subtitle {
-  width: 620px;
+  /* TODO confirm that max width is what should be used for text */
+  max-width: 620px;
 
   font-style: normal;
   font-weight: normal;
@@ -18,11 +19,10 @@
 
 @media screen and (max-width: 320px) {
   .lead__subtitle {
-    width: 288px;
+    /* TODO Confirm max width can be used as opposed to width */
+    max-width: 288px;
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 40px;
   }
 }
-
-/* TODO Determine/ask if media query is needed just for the same margin-bottom as the 1024px */
