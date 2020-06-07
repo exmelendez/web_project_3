@@ -10,4 +10,14 @@
   margin: 8px 0 0 0;
 }
 
-/* TODO double check margin, especially in 320px. */
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__caption {
+    margin-left: 16px;
+  }
+}
