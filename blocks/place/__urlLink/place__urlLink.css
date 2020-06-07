@@ -1,0 +1,26 @@
+.place__urlLink {
+  max-width: 456px;
+  text-decoration-line: underline;
+  display: block;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+
+  margin: 12px 0 0 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .place__urlLink {
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__urlLink {
+    display: none;
+  }
+}
