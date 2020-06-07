@@ -1,7 +1,5 @@
 .section {
   width: 100%;
-  /* TODO remove when other sections checked if it does not effect sections or elements */
-  /* margin: auto; */
   margin-left: auto;
   margin-right: auto;
 }

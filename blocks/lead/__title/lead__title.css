@@ -1,5 +1,4 @@
 .lead__title {
-  /* TODO confirm that max width is what should be used for text */
   max-width: 720px;
 
   font-style: normal;

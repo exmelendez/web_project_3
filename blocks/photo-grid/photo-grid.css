@@ -36,7 +36,6 @@
 
 @media screen and (max-width: 320px) {
   .photo-grid {
-    /* TODO check photo grid @ 320px, it's displaying off, however other section may be effecting it. Waiting until other sections complete before checking. */
     max-width: 288px;
     padding-top: 64px;
     grid-template-columns: 288px;

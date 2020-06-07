@@ -1,5 +1,4 @@
 .lead__caption {
-  /* TODO determine if this needs to be max-width */
   width: 183px;
   font-style: normal;
   font-weight: normal;
@@ -10,3 +9,5 @@
   text-transform: uppercase;
   margin: 8px 0 0 0;
 }
+
+/* TODO double check margin, especially in 320px. */
