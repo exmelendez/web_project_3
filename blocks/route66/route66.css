@@ -1,3 +1,29 @@
 @import url(./__link/route66__link.css);
 @import url(./__subtitle/route66__subtitle.css);
 @import url(./__title/route66__title.css);
+
+.route66 {
+  max-width: 1184px;
+  padding: 92px 0 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .route66 {
+    padding-top: 96px;
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .route66 {
+    padding-top: 88px;
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .route66 {
+    padding-top: 64px;
+    max-width: 320px;
+  }
+}
