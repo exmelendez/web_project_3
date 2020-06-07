@@ -1,12 +1,13 @@
-@import url(./__image/trip-gallery__image.css);
-@import url(./__item/trip-gallery__item.css);
+@import url(./__image/photo-grid__image.css);
+@import url(./__item/photo-grid__item.css);
 
 .photo-grid {
-  width: 100%;
-  height: 671px;
+  max-width: 1184px;
+  padding: 92px 0 0 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  margin: auto;
 
   display: grid;
   grid-template-columns: repeat(4, 284px);
@@ -16,7 +17,7 @@
 
 @media screen and (max-width: 1024px) {
   .photo-grid {
-    height: 942px;
+    max-width: 928px;
     grid-template-columns: repeat(3, 300px);
     grid-template-rows: repeat(4, 225px);
     grid-gap: 14px;
@@ -25,7 +26,8 @@
 
 @media screen and (max-width: 768px) {
   .photo-grid {
-    height: 720px;
+    max-width: 720px;
+    padding-top: 88px;
     grid-template-columns: repeat(2, 352px);
     grid-template-rows: repeat(6, 264px);
     grid-gap: 16px;
@@ -34,7 +36,9 @@
 
 @media screen and (max-width: 320px) {
   .photo-grid {
-    height: 2724px;
+    /* TODO check photo grid @ 320px, it's displaying off, however other section may be effecting it. Waiting until other sections complete before checking. */
+    max-width: 288px;
+    padding-top: 64px;
     grid-template-columns: 288px;
     grid-template-rows: repeat(12, 216px);
     grid-gap: 12px;
