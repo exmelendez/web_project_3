@@ -1,4 +1,5 @@
 .intro__facts {
+  max-width: 690px;
   list-style: none;
   margin: 32px 0 0 0;
   padding: 0;
@@ -6,7 +7,14 @@
 
 @media screen and (max-width: 768px) {
   .intro__facts {
+    max-width: 720px;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__facts {
+    max-width: 288px;
   }
 }
