@@ -1,4 +1,4 @@
-.place__urlLink {
+.place__url-link {
   max-width: 456px;
   text-decoration-line: underline;
   display: block;
@@ -15,18 +15,18 @@
   transition: opacity 0.3s ease-out;
 }
 
-.place__urlLink:hover {
+.place__url-link:hover {
   opacity: 0.8;
 }
 
 @media screen and (max-width: 768px) {
-  .place__urlLink {
+  .place__url-link {
     max-width: 352px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .place__urlLink {
+  .place__url-link {
     display: none;
   }
 }

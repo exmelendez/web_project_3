@@ -1,12 +1,12 @@
 @import url(./__content/place__content.css);
 @import url(./__content/_margin_top/place__content_margin_top.css);
-@import url(./__contentColumn/place__contentColumn.css);
-@import url(./__contentColumn/_padding_nhSection/place__contentColumn_padding_nhSection.css);
+@import url(./__content-column/place__content-column.css);
+@import url(./__content-column/_padding_nh-section/place__content-column_padding_nh-section.css);
 @import url(./__image/place__image.css);
-@import url(./__infoColumn/place__infoColumn.css);
+@import url(./__info-column/place__info-column.css);
 @import url(./__title/place__title.css);
-@import url(./__urlLink/place__urlLink.css);
-@import url(./__urlTitle/place__urlTitle.css);
+@import url(./__url-link/place__url-link.css);
+@import url(./__url-title/place__url-title.css);
 
 .place {
   width: 100%;

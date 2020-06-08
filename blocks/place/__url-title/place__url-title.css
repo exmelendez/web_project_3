@@ -1,4 +1,4 @@
-.place__urlTitle {
+.place__url-title {
   max-width: 456px;
 
   font-style: normal;
@@ -13,13 +13,13 @@
 }
 
 @media screen and (max-width: 768px) {
-  .place__urlTitle {
+  .place__url-title {
     max-width: 352px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .place__urlTitle {
+  .place__url-title {
     display: none;
   }
 }

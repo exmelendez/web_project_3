@@ -1,7 +1,7 @@
 @import url(./__logo/header__logo.css);
-@import url(./__langLinks/header__langLinks.css);
-@import url(./__langLink/header__langLink.css);
-@import url(./__langLink/_active/header__langLink_active.css);
+@import url(./__lang-links/header__lang-links.css);
+@import url(./__lang-link/header__lang-link.css);
+@import url(./__lang-link/_active/header__lang-link_active.css);
 
 .header {
   max-width: 984px;
