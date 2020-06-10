@@ -1,16 +1,19 @@
 @import url(./__fact/intro__fact.css);
 @import url(./__facts/intro__facts.css);
 @import url(./__fact-value/intro__fact-value.css);
+@import url(./__grid-container/intro__grid-container.css);
 @import url(./__subtitle/intro__subtitle.css);
 @import url(./__text/intro__text.css);
 @import url(./__title/intro__title.css);
 
 .intro {
   max-width: 984px;
+  min-width: 288px;
   margin: auto;
   padding: 92px 0 0 0;
 }
 
+/*
 @media screen and (max-width: 1024px) {
   .intro {
     max-width: 928px;
@@ -22,3 +25,4 @@
     width: 100%;
   }
 }
+*/
