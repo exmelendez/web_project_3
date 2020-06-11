@@ -1,18 +1,11 @@
 .place__content {
-  width: 100%;
-
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 30px;
-
-  margin: 24px 0 0 0;
+  max-width: 484px;
+  margin: 0;
   padding: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
   .place__content {
-    font-size: 16px;
-    line-height: 26px;
-  }
+    margin: 0 auto;
+  } 
 }

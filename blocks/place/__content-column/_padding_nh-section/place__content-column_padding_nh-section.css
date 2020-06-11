@@ -1,9 +1,0 @@
-.place__content-column_padding_nh-section {
-  margin-top: 106px;
-}
-
-@media screen and (max-width: 768px) {
-  .place__content-column_padding_nh-section {
-    margin-top: 0;
-  } 
-}

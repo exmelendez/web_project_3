@@ -1,8 +1,4 @@
 .place__url-title {
-  max-width: 456px;
-
-  font-style: normal;
-  font-weight: normal;
   font-size: 12px;
   line-height: 12px;
   letter-spacing: 0.2em;
@@ -10,16 +6,4 @@
 
   margin: 0;
   padding: 0;
-}
-
-@media screen and (max-width: 768px) {
-  .place__url-title {
-    max-width: 352px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .place__url-title {
-    display: none;
-  }
 }

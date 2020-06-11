@@ -1,34 +1,56 @@
 @import url(./__content/place__content.css);
-@import url(./__content/_margin_top/place__content_margin_top.css);
-@import url(./__content-column/place__content-column.css);
-@import url(./__content-column/_padding_nh-section/place__content-column_padding_nh-section.css);
+@import url(./__content-item/place__content-item.css);
 @import url(./__image/place__image.css);
-@import url(./__info-column/place__info-column.css);
 @import url(./__title/place__title.css);
+@import url(./__url-info/place__url-info.css);
 @import url(./__url-link/place__url-link.css);
 @import url(./__url-title/place__url-title.css);
 
 .place {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  margin: 0;
-  padding: 80px 0 0 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 984px;
+
+  display: grid;
+  grid-template: auto auto / minmax(288px, 460px) minmax(288px, 484px);
+  grid-gap: 48px 40px;
+  
+  margin: auto;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 80px;
 }
 
-.place:nth-child(1) {
-  padding: 0;
+.place:nth-child(4) {
+  padding-top: 92px;
+}
+
+.place:nth-child(8) {
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .place {
-    padding-top: 72px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 72px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place {
-    padding-top: 48px;
-    flex-direction: column;
+    grid-template: auto auto  auto / minmax(288px, 1fr);
+    grid-gap: 32px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 48px;
   }
 }
