@@ -1,4 +1,8 @@
 .lead__image {
-  width: 100%;
   margin: 0;
+  padding: 0;
+  object-fit: cover;
+  width: 100%;
 }
+
+/* TODO CHECK SIDE MARGIN NOT TAKING FULL WIDTH ON SCREEN BETWEEN 400px - 600px */

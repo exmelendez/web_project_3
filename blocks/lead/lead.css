@@ -5,25 +5,20 @@
 @import url(./__title/lead__title.css);
 
 .lead {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   max-width: 984px;
+
+  display: grid;
+  grid-template: auto auto  auto / minmax(320px, 1fr);
+
+  margin: 0 auto;
   padding-top: 58px;
 }
 
 @media screen and (max-width: 1024px) {
   .lead {
-    max-width: 928px;
     padding-top: 50px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .lead {
-    max-width: 768px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .lead {
-    max-width: 320px;
   }
 }
