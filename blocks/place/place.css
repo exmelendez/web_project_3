@@ -11,9 +11,10 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   max-width: 984px;
+  width: 100%;
 
   display: grid;
-  grid-template: auto auto / minmax(288px, 460px) minmax(288px, 484px);
+  grid-template: auto auto / 1fr 1fr;
   grid-gap: 48px 40px;
   
   margin: auto;
@@ -45,9 +46,9 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
   .place {
-    grid-template: auto auto  auto / minmax(288px, 1fr);
+    grid-template: auto auto  auto / 1fr;
     grid-gap: 32px;
     padding-left: 0;
     padding-right: 0;
