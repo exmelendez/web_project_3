@@ -5,7 +5,7 @@
 
 .footer {
   max-width: 1184px;
-  width: 80%;
+  width: calc(100% - (2*48px));
 
   display: flex;
   justify-content: space-between;
@@ -17,13 +17,8 @@
 
 @media screen and (max-width: 768px) {
   .footer {
+    width: calc(100% - (2*24px));
     padding-top: 88px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .footer {
-    width: 90%;
   }
 }
 

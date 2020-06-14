@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.footer__link-item:last-child {
+  margin-right: 0;
+}
+
 @media screen and (max-width: 450px) {
   .footer__link-item {
     margin-right: 0;
